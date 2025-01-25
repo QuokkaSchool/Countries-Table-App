@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.countries-table {
+  margin: 100px auto;
+  width: 100%;
+  max-width: 500px;
+}
+
+.countries-table tr:nth-of-type(odd) {
+  background-color: #e7e9eb;
+}
+
+.countries-table tr:nth-of-type(even) {
+  background-color: #f3f3f5;
+}
+
+.countries-table th {
+  color: #212121;
+  background-color: #f7931f;
+}
+
+.countries-table th,
+.countries-table td {
+  height: 50px;
+  padding: 0 20px;
+  /* border: 1px solid black; */
+}
+
+.countries-table td img {
+  display: block;
+  max-width: 50px;
+}
